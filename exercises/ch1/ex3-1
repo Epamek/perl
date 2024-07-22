@@ -1,4 +1,4 @@
-#!/usr/local/bin/perl5.40.0
+#!/usr/bin/env perl
 @lines = `perldoc -u -f atan2`;
 foreach (@lines) {
 	s/\w<([^>]+)>/\U$1/g;
